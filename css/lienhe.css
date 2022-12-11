@@ -1,0 +1,84 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/*CSS cho form liên hệ*/
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: rgb(208, 102, 119);
+	min-width: 100vh;
+}
+
+.heading h3{
+	font-size: 20px;
+	margin-bottom: 10px;
+	margin-left: 190px;
+}
+
+.form_box{
+	margin-top: 140px;
+	background-color: rgb(238, 179, 199);
+	width: 500px;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.input-row{
+	position: relative;
+	margin-bottom: 13px;
+}
+
+.form_box input:not([type="submit"]),
+.form_box textarea,
+.form_box select{
+	width: 94%;
+	margin: 0 0 3px;
+	padding: 10px 15px;
+	font-size: 20px;
+	color: gray;
+	border-radius: 5px;
+	border: 1px solid transparent;
+}
+
+.form_box textarea{
+	height: 150px;
+}
+
+.form_box input[type="submit"]{
+	padding: 10px 30px;
+	font-size: 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	border: 0;
+	color: #fff;
+	background-color: #075680;
+}
+
+.form_box input[type="submit"]:hover{
+	background-color: #000;
+}
+
+.error{
+	display: block;
+	font-weight: 700;
+	font-size: 14px;
+	color: red;
+	display: none;
+}
+
+.outro{
+	margin-top: 10px;
+	text-align: center;
+}
+
+.outro a{
+	font-size: 20px;
+	text-decoration: none;
+	color: rgb(94, 23, 23);
+}

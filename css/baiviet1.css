@@ -1,0 +1,423 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/*Phần header*/
+.nav0{
+	position: relative;
+	height: 40px;
+	background-color: black;
+}
+
+.nav0 .f0{
+	display: inline-block;
+	margin-left: 105px;
+	margin-top: 12px;
+	color: white;
+}
+
+.nav0 .f0{
+	background-color: red;
+}
+
+.nav0 .f1{
+	display: inline-block;
+	margin-left: 30px;
+	margin-top: 10px;
+	color: white;
+}
+
+.logo0{
+	position: absolute;
+	top: 12px;
+	left: 71%;
+}
+
+.logo0 i{
+	color: white;
+	padding: 0 7px;
+}
+
+.logo img{
+	box-sizing: content-box;
+	width: 200px;
+	height: 60px;
+	left: 100px;
+	margin-top: 40px;
+}
+
+/*Bắt đầu CSS thanh nav chính*/
+.nav{
+	top: 0; left: 0; right: 0;
+	background-color: white;
+	padding: 0 6%;
+	display: flex; 
+	align-items: center;
+	justify-content: space-between;
+	z-index: 1000;
+	position: relative;
+    border-bottom: 1px solid rgb(214, 210, 210);
+}
+
+.navitem ul{
+	list-style: none;
+}
+
+.navitem ul li{
+	position: relative;
+	float: left;
+	margin-top: 4%;
+}
+
+.navitem ul li a{
+	font-size: 15px;
+	font-weight: bold;
+	padding: 20px;
+	color: black;
+	display: block;
+	text-decoration: none;
+}
+
+.navitem ul li a:hover{
+	color: green;
+}
+
+.navitem ul li ul{
+	position: absolute;
+	left: 0;
+	width: 180px;
+	background-color: white;
+	display: none;
+	box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+}
+
+.navitem ul li ul li{
+	width: 100%;
+}
+
+/*Hiện thanh công cụ của nav xuống*/
+.navitem ul li:hover > ul{
+	display: initial;
+}
+
+/*CSS cho kính lúp*/
+.searchicon i{
+	color: black;
+	position: absolute;
+	top: 60px;
+	left: 90%;
+}
+
+.searchicon i:hover{
+    color: green;
+}
+
+/*Phần body*/
+/*Bài viết 1*/
+.fashion{
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.fashion a{
+    text-decoration: none;
+}
+
+.fashion span{
+    color: green;
+    text-decoration: none;
+    margin-left: 350px;
+}
+
+.fashion h2{
+    color: black;
+    margin-top: 10px;
+    margin-left: 250px;
+}
+
+.fashion h3{
+    color: gray;
+    margin-top: 10px;
+    margin-left: 330px;
+}
+
+.fashion h3:hover{
+    opacity: 0.8;
+}
+
+.fashion a img{
+    margin-top: 20px;
+    width: 55%;
+    height: 450px;
+}
+
+.fashion p{
+    margin-top: 20px;
+    width: 56%;
+}
+
+/*Nội dung thanh bên phải*/
+/*Phần giới thiệu*/
+.rightcontents{
+    position: relative;
+    float: right;
+    margin-top: -1038px;
+}
+
+.about1 h2{
+    display: block;
+    margin-bottom: 30px;
+    margin-left: 16%;
+    width: 102px;
+    border: 1px solid gainsboro;
+    padding: 0 70px;
+}
+
+.about2 img{
+    width: 76%;
+}
+
+.about2 p{
+    text-align: center;
+    margin-top: 20px;
+    width: 77%;
+    color: rgb(103, 98, 98);
+}
+
+/*Phần hiện các thể loại*/
+.cate1 h2{
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-left: 15%;
+    width: 140px;
+    border: 1px solid gainsboro;
+    padding: 0 70px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cate2 ul{
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+.cate2 li{
+    padding-bottom: 20px;
+}
+
+.cate2 a{
+    text-decoration: none;
+    color: rgb(45, 39, 39);
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 10px;
+    padding-right: 350px;
+}
+
+.cate2 a:hover{
+    transition: 0.5s;
+    opacity: 0.8;
+}
+
+/*Phần bonus*/
+.extra0 h3{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	margin-left: 100px;
+	margin-right: 110px;
+	border-bottom: 2px solid red;
+}
+
+.extra{
+	display: flex;
+    justify-content: center;
+}
+
+/*Bài viết bonus 1*/
+.extra1{
+	padding: 12px 14px;
+	flex-basis: 20%;
+}
+
+.extra1 img{
+	width: 95%;
+	height: 220px;
+	transition: 0.5s;
+}
+
+.extra1 img:hover{
+	opacity: 0.7;
+}
+
+.extra1 a{
+	text-decoration: none;
+}
+
+.extra1 h5{
+	margin-top: 10px;
+	color: gray;
+	margin-left: 85px;
+}
+
+.extra1 h5:hover{
+	opacity: 0.8;
+}
+
+.extra1 h3{
+	margin-top: 10px;
+	color: black;
+	margin-left: 65px;
+}
+
+.extra1 h3:hover{
+	opacity: 0.8;
+}
+
+.extra1 p{
+	color: rgb(119, 108, 108);
+	margin-top: 20px;
+}
+
+.extra1 .underline{
+	margin-left: 130px;
+	margin-bottom: 20px;
+}
+
+/*Bài viết bonus 2*/
+.extra2{
+	padding: 12px 14px;
+	flex-basis: 20%;
+}
+
+.extra2 img{
+	width: 95%;
+	height: 220px;
+	transition: 0.5s;
+}
+
+.extra2 img:hover{
+	opacity: 0.7;
+}
+
+.extra2 a{
+	text-decoration: none;
+}
+
+.extra2 h5{
+	margin-top: 10px;
+	color: gray;
+	margin-left: 80px;
+}
+
+.extra2 h5:hover{
+	opacity: 0.8;
+}
+
+.extra2 h3{
+	margin-top: 10px;
+	color: black;
+	margin-left: 60px;
+}
+
+.extra2 h3:hover{
+	opacity: 0.8;
+}
+
+.extra2 p{
+	color: rgb(119, 108, 108);
+	margin-top: 20px;
+}
+
+.extra2 .underline{
+	margin-left: 130px;
+	margin-bottom: 20px;
+}
+
+/*Bài viết bonus 3*/
+.extra3{
+	padding: 12px 14px;
+	flex-basis: 20%;
+}
+
+.extra3 img{
+	width: 95%;
+	height: 220px;
+	transition: 0.5s;
+}
+
+.extra3 img:hover{
+	opacity: 0.7;
+}
+
+.extra3 a{
+	text-decoration: none;
+}
+
+.extra3 h5{
+	margin-top: 10px;
+	color: gray;
+	margin-left: 80px;
+}
+
+.extra3 h5:hover{
+	opacity: 0.8;
+}
+
+.extra3 h3{
+	margin-top: 10px;
+	color: black;
+	margin-left: 67px;
+}
+
+.extra3 h3:hover{
+	opacity: 0.8;
+}
+
+.extra3 p{
+	color: rgb(119, 108, 108);
+	margin-top: 20px;
+}
+
+.extra3 .underline{
+	margin-left: 130px;
+	margin-bottom: 20px;
+}
+
+/*Phần footer*/
+.footer-container{
+	margin-top: 20px;
+	height: 370px;
+	background-color: black;
+}
+
+.information{
+	text-align: center;
+}
+
+.footer-container .information img{
+	height: 100px;
+	width: 100px;
+}
+
+.infos h4{
+	margin-top: 10px;
+	margin-left: 200px;
+	margin-right: 200px;
+	color: white;
+}
+
+.infos1 h3{
+	margin-top: 20px;
+	color: white;
+}
+
+.infos1 i{
+	font-size: 30px;
+	margin-top: 30px;
+	padding: 0 30px;
+}
+
+.infos2 p{
+	margin-top: 40px;
+	color: royalblue;
+}

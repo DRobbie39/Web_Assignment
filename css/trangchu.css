@@ -1,0 +1,597 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/* body{
+	max-width: 1000px;
+	margin: 0 auto;
+} */
+
+/*Phần header*/
+.nav0{
+	position: relative;
+	height: 40px;
+	background-color: black;
+}
+
+.nav0 .f0{
+	display: inline-block;
+	margin-left: 105px;
+	margin-top: 12px;
+	color: white;
+}
+
+.nav0 .f0{
+	background-color: red;
+}
+
+.nav0 .f1{
+	display: inline-block;
+	margin-left: 30px;
+	margin-top: 10px;
+	color: white;
+}
+
+.logo0{
+	position: absolute;
+	top: 12px;
+	left: 83%;
+}
+
+.logo0 i{
+	color: white;
+	padding: 0 7px;
+}
+
+.logo img{
+	box-sizing: content-box;
+	width: 200px;
+	height: 60px;
+	left: 100px;
+	margin-top: 40px;
+}
+
+/*Bắt đầu CSS thanh nav chính*/
+.nav{
+	top: 0; left: 0; right: 0;
+	background-color: white;
+	padding: 0 6%;
+	display: flex; 
+	align-items: center;
+	justify-content: space-between;
+	z-index: 1000;
+	position: relative;
+}
+
+.navitem ul{
+	list-style: none;
+}
+
+.navitem ul li{
+	position: relative;
+	float: left;
+	margin-top: 4%;
+}
+
+.navitem ul li a{
+	font-size: 15px;
+	font-weight: bold;
+	padding: 35px;
+	color: black;
+	display: block;
+	text-decoration: none;
+}
+
+.navitem ul li a:hover{
+	color: green;
+}
+
+.navitem ul li ul{
+	position: absolute;
+	left: 0;
+	width: 180px;
+	background-color: white;
+	display: none;
+	box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+}
+
+.navitem ul li ul li{
+	width: 100%;
+}
+
+/*Hiện thanh công cụ của nav xuống*/
+.navitem ul li:hover > ul{
+	display: initial;
+}
+
+/*CSS cho kính lúp*/
+.searchicon i:hover{
+	color: green;
+}
+
+/*CSS cho banner quảng cáo*/
+.banner-container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.banner{
+	background-color: rosybrown;
+	border-radius: 5px;
+	margin-top: 30px;
+	margin-left: 100px;
+	margin-right: 125px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	box-shadow: 0 5px 10px black;
+	overflow: hidden;
+}
+
+.perfume{
+	flex: 1 1 100px;
+	padding: 10px;
+	text-align: center;
+}
+
+.perfume img{
+	width: 60%;
+}
+
+.content{
+	flex: 1 1 100px;
+	text-align: center;
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+.content span{
+	color: white;
+	font-size: 20px;
+}
+
+.content h3{
+	color: white;
+	font-size: 35px;
+}
+
+.content p{
+	color: white;
+	font-size: 20px;
+	padding: 10px;	
+}
+
+.content .btn{
+	display: block;
+	height: 40px;
+	width: 150px;
+	line-height: 40px;
+	background-color: white;
+	color: red;
+	margin: 5px auto;
+	text-decoration: none;
+}
+
+.content .btn:hover{
+	background-color: pink;
+}
+
+.man{
+	position: relative;
+	padding: 10px;
+	flex: 1 1 100px;
+	text-align: center;
+}
+
+.man img{
+	width: 60%;
+}
+
+/*Phần body*/
+/*Bài viết mở đầu*/
+.news{
+	margin-top: 50px;
+}
+
+.fashion0 h4{
+	font-size: 20px;
+	color: black;
+	margin-left: 100px;
+	margin-right: 120px;
+	border-bottom: 2px solid red;
+}
+
+.fashion0 img{
+	margin-top: 20px;
+	margin-left: 100px;
+	margin-right: 125px;
+	width: calc(100% - 220px);
+	height: 700px;
+	transition: 0.5s;
+}
+
+.fashion0 img:hover{
+	opacity: 0.7;
+}
+
+.fashion0 a{
+	text-decoration: none;
+}
+
+.fashion0 h5{
+	color: rgb(183, 171, 171);
+	margin-top: 10px;
+	text-align: center;
+}
+
+.fashion0 h5:hover{
+	opacity: 0.8;
+}
+
+.fashion0 h3{
+	color: black;
+	margin-top: 10px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.fashion0 h3:hover{
+	opacity: 0.8;
+}
+
+.content0 p{
+	margin-top: 10px;
+	margin-left: 100px;
+	margin-right: 100px;
+	color: grey;
+}
+
+/*Các chủ đề chính*/
+.seemore h3{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	margin-left: 100px;
+	margin-right: 110px;
+	border-bottom: 2px solid red;
+}
+
+.contents{
+	margin-left: 85px;
+	width: 94%;
+	display: flex;
+}
+
+/*Bài viết 1*/
+.fashion1{
+	padding: 10px 14px;
+	flex-basis: 26%;
+}
+
+.fashion1 img{
+	width: 100%;
+	height: 230px;
+	transition: 0.5s;
+}
+
+.fashion1 img:hover{
+	opacity: 0.7;
+}
+
+.fashion1 a{
+	text-decoration: none;
+}
+
+.fashion1 h5{
+	margin-top: 10px;
+	color: gray;
+	margin-left: 95px;
+}
+
+.fashion1 h5:hover{
+	opacity: 0.8;
+}
+
+.fashion1 h3{
+	margin-top: 10px;
+	color: black;
+	margin-left: 65px;
+}
+
+.fashion1 h3:hover{
+	opacity: 0.8;
+}
+
+.fashion1 p{
+	color: rgb(119, 108, 108);
+	margin-top: 20px;
+}
+
+.fashion1 .underline{
+	margin-left: 135px;
+	margin-bottom: 20px;
+}
+
+/*Bài viết 2*/
+.travel{
+	padding: 10px 14px;
+	flex-basis: 26%;
+}
+
+.travel img{
+	width: 100%;
+	height: 230px;
+	transition: 0.5s;
+}
+
+.travel img:hover{
+	opacity: 0.7;
+}
+
+.travel a{
+	text-decoration: none;
+}
+
+.travel h5{
+	margin-top: 10px;
+	color: gray;
+	margin-left: 95px;
+}
+
+.travel h5:hover{
+	opacity: 0.8;
+}
+
+.travel h3{
+	margin-top: 10px;
+	color: black;
+	margin-left: 70px;
+}
+
+.travel h3:hover{
+	opacity: 0.8;
+}
+
+.travel p{
+	color: rgb(119, 108, 108);
+	margin-top: 20px;
+}
+
+.travel .underline{
+	margin-left: 140px;
+	margin-bottom: 20px;
+}
+
+/*Bài viết 3*/
+.lifestyle{
+	padding: 10px 14px;
+	flex-basis: 26%;
+}
+
+.lifestyle img{
+	width: 100%;
+	height: 230px;
+	transition: 0.5s;
+}
+
+.lifestyle img:hover{
+	opacity: 0.7;
+}
+
+.lifestyle a{
+	text-decoration: none;
+}
+
+.lifestyle h5{
+	margin-top: 10px;
+	color: gray;
+	margin-left: 95px;
+}
+
+.lifestyle h5:hover{
+	opacity: 0.8;
+}
+
+.lifestyle h3{
+	margin-top: 10px;
+	color: black;
+	margin-left: 65px;
+}
+
+.lifestyle h3:hover{
+	opacity: 0.8;
+}
+
+.lifestyle p{
+	color: rgb(119, 108, 108);
+	margin-top: 20px;
+}
+
+.lifestyle .underline{
+	margin-left: 141px;
+	margin-bottom: 20px;
+}
+
+/*Thanh nội dung bên phải*/
+.rightcontents{
+	margin-top: 10px;
+}
+
+/*Nội dung 1*/
+.content1 img{
+	width: 72%;
+	height: 140px;
+}
+
+.content1 .btn1{
+	position: relative;
+	top: -55px;
+	right: 180px;
+	padding: 5px;
+	background-color: white;
+	text-decoration: none;
+}
+
+/*Nội dung 2*/
+.content2 img{
+	width: 72%;
+	height: 140px;
+}
+
+.content2 .btn2{
+	position: relative;
+	top: -55px;
+	right: 180px;
+	padding: 5px;
+	background-color: white;
+	text-decoration: none;
+}
+
+/*Nội dung 3*/
+.content3 img{
+	width: 72%;
+	height: 140px;
+}
+
+.content3 .btn3{
+	position: relative;
+	top: -60px;
+	right: 180px;
+	padding: 5px;
+	background-color: white;
+	text-decoration: none;
+}
+
+/*Phần footer*/
+.footer-container{
+	margin-top: 20px;
+	height: 370px;
+	background-color: black;
+}
+
+.information{
+	text-align: center;
+}
+
+.footer-container .information img{
+	height: 100px;
+	width: 100px;
+}
+
+.infos h4{
+	margin-top: 10px;
+	margin-left: 200px;
+	margin-right: 200px;
+	color: white;
+}
+
+.infos1 h3{
+	margin-top: 20px;
+	color: white;
+}
+
+.infos1 i{
+	font-size: 30px;
+	margin-top: 30px;
+	padding: 0 30px;
+}
+
+.infos2 p{
+	margin-top: 40px;
+	color: royalblue;
+}
+
+/*CSS banner cho tương thích với các thiết bị*/
+/*Tablet*/
+@media (min-width: 741px) and (max-width: 1020px){
+	/*Nav đầu*/
+	.nav0{
+		position: relative;
+		height: 70px;
+	}
+
+	.nav0 .f0{
+		display: inline-block;
+		margin-left: 150px;
+		margin-top: 12px;
+	}
+
+	.logo0{
+		position: absolute;
+		top: 38px;
+		left: 45%;
+	}
+
+	/*Nav sau*/
+	.nav{
+		padding: 0 2%;
+		display: flex; 
+		align-items: center;
+		justify-content: space-between;
+		margin-top: 100px;
+	}
+
+	.navitem ul{
+		margin-left: -260px;	
+	}
+
+	.logo img{
+		position: relative;
+		box-sizing: content-box;
+		width: 200px;
+		height: 60px;
+		left: 320px;
+		top: -100px;
+	}
+
+	.searchicon i{
+		position: absolute;
+		top: 57px;
+		left: 90%;
+	}
+
+	.navitem ul li ul{
+		margin-left: 20px;	
+		width: 180px;
+		display: none;
+	}
+	
+	.navitem ul li ul li{
+		width: 100%;
+	}
+	
+	/*Hiện thanh công cụ của nav xuống*/
+	.navitem ul li:hover > ul{
+		display: initial;
+	}
+
+	/*Banner*/
+	.man{
+		display: none;
+	}
+
+	.banner{
+		margin-right: 100px;
+	}
+
+	/*Bài viết mở đầu*/
+	.fashion0 h4{
+		margin-right: 100px;
+	}
+
+	.fashion0 img{
+		/* margin-right: 125px;
+    	margin-left: 100px;
+    	width: calc(100% - 220px); */
+	}
+}
+
+/*Mobile*/
+@media screen and (max-width: 740px){
+	/* .man{
+		display: none;
+	} */
+}
+
