@@ -1,0 +1,634 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/*CSS banner cho tương thích với các thiết bị*/
+/*Tablet*/
+@media (min-width: 741px) and (max-width: 1250px){
+/*Nav đầu*/
+.nav0{
+	position: relative;
+	height: 40px;
+}
+
+.nav0 .f0{
+    position: relative;
+	display: inline-block;
+	margin-left: 7vw;
+	margin-top: 12px;
+}
+
+.nav0 .f1{
+    position: relative;
+    margin-left: 4vw;
+    margin-top: 10px;
+}
+
+.logo0{
+    top: 12px;
+    left: 79%;
+}
+
+/*Nav sau*/
+.nav{
+	top: 0; left: 0; right: 0;
+	background-color: white;
+	padding: 0 7%;
+	display: flex; 
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+    margin-top: 100px;
+}
+
+.navitem ul{
+    position: relative;
+	left: -250px;	
+}
+
+.logo img{
+	position: relative;
+	box-sizing: content-box;
+	width: 200px;
+	height: 60px;
+	left: 370px;
+	top: -100px;
+}
+
+.searchicon i{
+	position: absolute;
+	top: 57px;
+	left: 90%;
+}
+
+.navitem ul li a{
+	font-size: 14px;
+	font-weight: bold;
+	padding: 8px;
+	color: black;
+	display: block;
+	text-decoration: none;
+}
+
+.navitem ul li ul{
+	margin-left: 20px;	
+	width: 180px;
+	display: none;
+}
+	
+.navitem ul li ul li{
+	width: 100%;
+}
+	
+/*Hiện thanh công cụ của nav xuống*/
+.navitem ul li:hover > ul{
+	display: initial;
+}
+
+/*Banner*/
+.banner{
+	margin-right: 150px;
+}
+
+.man{
+	display: none;
+}
+
+.perfume img{
+	width: 60%;
+}
+
+/*Bài viết mở đầu*/
+.fashion0 h4{
+    position: relative;
+    margin-left: 100px;
+	margin-right: 155px;
+}
+
+.fashion0 img{
+    height: 500px;
+    width: calc(100% - 256px);
+}
+
+.content0 p{      
+    margin-right: 145px;
+}
+
+/*Chủ đề chính*/
+.seemore h3{   
+    position: relative;         
+    right: 2px;
+    width: 74%;
+}
+
+.contents{
+    margin-left: 90px;
+}
+
+/*Bài viết 1*/
+.fashion1{
+    padding: 6px 8px;
+    flex-basis: 19%;
+}
+
+.fashion1 img{
+    width: 90%;
+    height: 170px;
+}
+
+.fashion1 h5{
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+.fashion1 h3{
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.fashion1 h3{
+    margin-left: 10px;
+}
+
+.fashion1 p{
+	margin-top: 8px;
+    font-size: 14px;
+}
+
+.fashion1 .underline{
+    margin-left: 75px;
+}
+
+/*Bài viết 2*/
+.travel{
+    padding: 6px 8px;
+    flex-basis: 19%;
+}
+
+.travel img{
+    width: 90%;
+    height: 170px;
+}
+
+.travel h5{
+    font-size: 12px;
+    margin-left: 35px;
+}
+
+.travel h3{
+    font-size: 15px;
+    position: relative;
+    left: 10px;
+}
+
+.travel h3{
+    margin-left: 10px;
+}
+
+.travel p{
+	margin-top: 8px;
+    font-size: 14px;
+}
+
+.travel .underline{
+    margin-left: 75px;
+}
+
+/*Bài viết 3*/
+.lifestyle{
+    padding: 6px 8px;
+    flex-basis: 19%;
+}
+
+.lifestyle img{
+    width: 90%;
+    height: 170px;
+}
+
+.lifestyle h5{
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+.lifestyle h3{
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.lifestyle p{
+	margin-top: 8px;
+    font-size: 14px;
+}
+
+.lifestyle .underline{
+    position: relative;
+    margin-left: 78px;
+}
+
+/*Nội dung 1*/
+.content1 img{
+	width: 62%;
+	height: 100px;
+}
+
+.content1 .btn1{
+	position: relative;
+	top: -40px;
+	right: 140px;
+	padding: 5px;
+	background-color: white;
+	text-decoration: none;
+}
+
+/*Nội dung 2*/
+.content2 img{
+	width: 62%;
+	height: 100px;
+}
+
+.content2 .btn2{
+	position: relative;
+	top: -40px;
+	right: 140px;
+	padding: 5px;
+	background-color: white;
+	text-decoration: none;
+}
+
+/*Nội dung 3*/
+.content3 img{
+	width: 62%;
+	height: 100px;
+}
+
+.content3 .btn3{
+	position: relative;
+	top: -40px;
+	right: 140px;
+	padding: 5px;
+	background-color: white;
+	text-decoration: none;
+}
+
+/*Phần footer*/
+.footer-container{
+	margin-top: 20px;
+	height: 400px;
+	background-color: black;
+}
+
+.information{
+	text-align: center;
+}
+
+.footer-container .information img{
+    position: relative;
+    top: 2px;
+    left: 2px;
+	height: 100px;
+	width: 100px;
+}
+
+.infos h4{
+    font-size: 14px;
+	margin-top: 10px;
+	margin-left: 200px;
+	margin-right: 200px;
+	color: white;
+}
+
+.infos1 h3{
+    font-size: 13px;
+	margin-top: 20px;
+	color: white;
+}
+
+.infos1 i{
+	font-size: 30px;
+	margin-top: 30px;
+	padding: 0 30px;
+}
+
+.infos2 p{
+	margin-top: 40px;
+	color: royalblue;
+}
+
+}
+
+/*Mobile*/
+@media screen and (max-width: 740px){
+.nav0{
+	position: relative;
+	height: 80px;
+}
+
+.nav0 .f0{
+    position: relative;
+	display: inline-block;
+	margin-left: 15vw;
+	margin-top: 12px;
+}
+
+.nav0 .f1{
+    position: relative;
+    margin-left: 4vw;
+    margin-top: 10px;
+}
+
+.logo0{
+    top: 45px;
+    left: 45%;
+}
+
+/*Nav sau*/
+.nav{
+	top: 0; left: 0; right: 0;
+	background-color: white;
+	padding: 0 5%;
+	display: flex; 
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+    margin-top: 100px;
+}
+
+.navitem ul{
+    position: relative;
+	left: -100px;	
+}
+
+.logo img{
+	position: relative;
+	box-sizing: content-box;
+	width: 200px;
+	height: 60px;
+	left: 235px;
+	top: -100px;
+}
+
+.searchicon i{
+	position: absolute;
+	top: 57px;
+	left: 90%;
+}
+
+.navitem ul li a{
+	font-size: 11px;
+	font-weight: bold;
+	padding: 6px;
+	color: black;
+	display: block;
+	text-decoration: none;
+}
+
+.navitem ul li ul{
+	margin-left: 20px;	
+	width: 180px;
+	display: none;
+}
+	
+.navitem ul li ul li{
+	width: 100%;
+}
+	
+/*Hiện thanh công cụ của nav xuống*/
+.navitem ul li:hover > ul{
+	display: initial;
+}
+
+/*Banner*/
+.banner{
+	margin-right: 100px;
+}
+
+.man{
+	display: none;
+}
+
+.perfume img{
+	width: 60%;
+}
+
+/*Bài viết mở đầu*/
+.fashion0 h4{
+    position: relative;
+    margin-left: 100px;
+	margin-right: 100px;
+}
+
+.fashion0 img{
+    height: 300px;
+    width: calc(100% - 202px);
+}
+
+.content0 p{      
+    margin-right: 100px;
+}
+
+/*Chủ đề chính*/
+.seemore h3{   
+    position: relative;         
+    right: 2px;
+    width: 71%;
+}
+
+.contents{
+    margin-left: 90px;
+}
+
+/*Bài viết 1*/
+.fashion1{
+    padding: 10px 14px;
+    flex-basis: 52%;
+}
+
+.fashion1 img{
+    width: 100%;
+    height: 170px;
+}
+
+.fashion1 h5{
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+.fashion1 h3{
+    font-size: 15px;
+    margin-left: 12px;
+}
+
+.fashion1 h3{
+    margin-left: 10px;
+}
+
+.fashion1 p{
+	margin-top: 8px;
+    font-size: 14px;
+}
+
+.fashion1 .underline{
+    margin-left: 70px;
+}
+
+/*Bài viết 2*/
+.travel{
+    padding: 10px 14px;
+    flex-basis: 52%;
+}
+
+.travel img{
+    width: 100%;
+    height: 170px;
+}
+
+.travel h5{
+    font-size: 12px;
+    margin-left: 35px;
+}
+
+.travel h3{
+    font-size: 15px;
+    position: relative;
+    left: 10px;
+}
+
+.travel h3{
+    margin-left: 10px;
+}
+
+.travel p{
+	margin-top: 8px;
+    font-size: 14px;
+}
+
+.travel .underline{
+    margin-left: 70px;
+}
+
+/*Bài viết 3*/
+.lifestyle{
+    padding: 10px 14px;
+    flex-basis: 52%;
+}
+
+.lifestyle img{
+    width: 100%;
+    height: 170px;
+}
+
+.lifestyle h5{
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+.lifestyle h3{
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.lifestyle p{
+	margin-top: 8px;
+    font-size: 14px;
+}
+
+.lifestyle .underline{
+    position: relative;
+    margin-left: 70px;
+}
+
+.rightcontents{
+    position: relative;
+	margin-top: 500px;
+    left: -350px;
+}
+
+/*Nội dung 1*/
+.content1 img{
+	width: 150%;
+	height: 100px;
+}
+
+.content1 .btn1{
+	position: relative;
+	top: -60px;
+	right: -80px;
+	padding: 5px;
+	background-color: white;
+	text-decoration: none;
+}
+
+/*Nội dung 2*/
+.content2 img{
+	width: 150%;
+	height: 100px;
+}
+
+.content2 .btn2{
+	position: relative;
+	top: -60px;
+	right: -80px;
+	padding: 5px;
+	background-color: white;
+	text-decoration: none;
+}
+
+/*Nội dung 3*/
+.content3 img{
+	width: 150%;
+	height: 100px;
+}
+
+.content3 .btn3{
+	position: relative;
+	top: -60px;
+	right: -80px;
+	padding: 5px;
+	background-color: white;
+	text-decoration: none;
+}
+
+/*Phần footer*/
+.footer-container{
+	margin-top: 20px;
+	height: 450px;
+	background-color: black;
+}
+
+.information{
+	text-align: center;
+}
+
+.footer-container .information img{
+    position: relative;
+    top: 2px;
+    left: 2px;
+	height: 100px;
+	width: 100px;
+}
+
+.infos h4{
+	margin-top: 10px;
+	margin-left: 200px;
+	margin-right: 200px;
+	color: white;
+}
+
+.infos1 h3{
+	margin-top: 20px;
+	color: white;
+}
+
+.infos1 i{
+	font-size: 30px;
+	margin-top: 30px;
+	padding: 0 30px;
+}
+
+.infos2 p{
+	margin-top: 40px;
+	color: royalblue;
+}
+
+}
